@@ -20,7 +20,6 @@ yarn start
 ```bash
 yarn install
 yarn build
-yarn serve
 ```
 
 ### Host locally

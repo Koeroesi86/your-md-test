@@ -1,0 +1,11 @@
+.LoadingIndicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    display: block;
+    width: 64px;
+    height: 64px;
+  }
+}

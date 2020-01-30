@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The GithubLink component renders 1`] = `
+<Fragment>
+  <svg
+    className="image show"
+    viewBox="0 0 228 220"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+  >
+    <defs>
+      <path
+        d="M0 0h228v220H0V0z"
+        id="a"
+      />
+      <clipPath
+        id="b"
+      >
+        <use
+          xlinkHref="#a"
+        />
+      </clipPath>
+    </defs>
+    <use
+      fill="#D8D8D8"
+      xlinkHref="#a"
+    />
+    <g
+      clipPath="url(#b)"
+    >
+      <use
+        fill="none"
+        stroke="#979797"
+        strokeWidth="2"
+        xlinkHref="#a"
+      />
+    </g>
+  </svg>
+</Fragment>
+`;

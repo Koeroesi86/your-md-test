@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The GithubLink component renders 1`] = `
+<a
+  className="App-github-link"
+  href="https://github.com/Koeroesi86"
+  rel="noopener noreferrer"
+  target="_blank"
+  title="Visit my Github"
+>
+  <img
+    alt="Github"
+    className="App-github-link-image"
+    src="github.png"
+  />
+</a>
+`;

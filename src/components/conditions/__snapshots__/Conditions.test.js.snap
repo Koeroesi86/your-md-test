@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Home component renders 1`] = `
+<div
+  className="Conditions"
+>
+  <h1>
+    Conditions
+  </h1>
+  <div
+    className="listing"
+  >
+    <LoadingIndicator />
+  </div>
+</div>
+`;

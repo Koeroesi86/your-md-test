@@ -1,0 +1,27 @@
+.Condition {
+  padding: 20px 10px;
+
+  .title {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 10px 0;
+  }
+
+  .excerpt {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+
+    .text {
+      margin-right: 6px;
+    }
+
+    .more .hl {
+      font-weight: 600;
+      color: #00CCB3;
+    }
+  }
+}

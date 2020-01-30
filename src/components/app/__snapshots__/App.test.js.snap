@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The App component renders 1`] = `
+<Router
+  history={
+    Object {
+      "action": "REPLACE",
+      "block": [Function],
+      "createHref": [Function],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "length": 3,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/conditions",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <App
+    navigate={[Function]}
+    routes={Array []}
+  >
+    <div
+      className="App"
+    >
+      <Uncontrolled(Navbar)
+        bsStyle="default"
+        inverse={true}
+      >
+        <Navbar
+          bsClass="navbar"
+          bsStyle="default"
+          collapseOnSelect={false}
+          componentClass="nav"
+          fixedBottom={false}
+          fixedTop={false}
+          fluid={false}
+          inverse={true}
+          onToggle={[Function]}
+          staticTop={false}
+        >
+          <nav
+            className="navbar navbar-inverse"
+          >
+            <Grid
+              bsClass="container"
+              componentClass="div"
+              fluid={false}
+            >
+              <div
+                className="container"
+              >
+                <NavbarHeader>
+                  <div
+                    className="navbar-header"
+                  >
+                    <NavbarBrand>
+                      <span
+                        className="App-title navbar-brand"
+                        onClick={[Function]}
+                      />
+                    </NavbarBrand>
+                  </div>
+                </NavbarHeader>
+                <Nav
+                  bsClass="nav"
+                  justified={false}
+                  pullLeft={false}
+                  pullRight={false}
+                  stacked={false}
+                >
+                  <ul
+                    className="nav navbar-nav"
+                    role={null}
+                  />
+                </Nav>
+                <GithubLink>
+                  <a
+                    className="App-github-link"
+                    href="https://github.com/Koeroesi86"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    title="Visit my Github"
+                  >
+                    <img
+                      alt="Github"
+                      className="App-github-link-image"
+                      src="github.png"
+                    />
+                  </a>
+                </GithubLink>
+              </div>
+            </Grid>
+          </nav>
+        </Navbar>
+      </Uncontrolled(Navbar)>
+      <section
+        className="App-contents"
+      >
+        <div
+          className="container"
+        >
+          <Switch />
+        </div>
+      </section>
+      <footer>
+        <GithubLink>
+          <a
+            className="App-github-link"
+            href="https://github.com/Koeroesi86"
+            rel="noopener noreferrer"
+            target="_blank"
+            title="Visit my Github"
+          >
+            <img
+              alt="Github"
+              className="App-github-link-image"
+              src="github.png"
+            />
+          </a>
+        </GithubLink>
+      </footer>
+    </div>
+  </App>
+</Router>
+`;

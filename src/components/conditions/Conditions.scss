@@ -1,0 +1,28 @@
+.Conditions {
+  .listing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    .Condition {
+      flex: 0 1 25%;
+
+      @media (max-device-width: 660px) {
+        flex-basis: 33%;
+      }
+
+      @media (max-device-width: 480px) {
+        flex-basis: 50%;
+      }
+
+      @media (max-device-width: 320px) {
+        flex-basis: 100%;
+      }
+    }
+
+    .LoadingIndicator {
+      flex: 1 1 0;
+    }
+  }
+}
